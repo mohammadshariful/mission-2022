@@ -139,3 +139,36 @@ footer {
   color: #fff;
   background-color: #000;
 }
+
+/* media query for mobile device */
+@media only screen and (max-width: 576px) {
+  .header-info h1 {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .missin-target img {
+    width: 30%;
+  }
+  .container-area {
+    width: 100%;
+    flex-direction: column;
+  }
+  .missin-target {
+    width: 100%;
+  }
+
+  #planning-approach {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .approach-info img {
+    width: 100%;
+  }
+  #development-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
